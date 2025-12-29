@@ -1,0 +1,22 @@
+[general]
+name=ALKIS-Suchmodul
+qgisMinimumVersion=3.16
+description=Plugin zur Suche von Flurstücken in Teilen Deutschlands über ALKIS-WFS-Dienste
+version=1.3.0
+author=Vincent Neumann
+email=vincent.neumann@hotmail.de
+about=Dieses Plugin ermöglicht die Suche nach Flurstücken in Nordrhein-Westfalen, Niedersachsen, Hessen und Rheinland-Pfalz. Es nutzt die offiziellen WFS-Dienste der Länder.
+homepage=https://github.com/deinname/flurstueck-suche
+repository=https://github.com/deinname/flurstueck-suche
+tracker=https://github.com/deinname/flurstueck-suche/issues
+category=Katastersuche
+tags=ALKIS,Flurstück,NRW,NI,HE,RLP,Grundstück,Kataster
+icon=icon.png
+experimental=false
+deprecated=false
+
+[changelog]
+1.3.0=Implementierung von Rheinland-Pfalz
+1.2.0=Implementierung von Hessen
+1.1.0=Implementierung von Niedersachsen
+1.0.0=Erste Version mit Grundfunktionalität
